@@ -1,8 +1,9 @@
-module Tskr
+module main
 
-go 1.22.0
+go 1.22.1
 
 require (
+	github.com/ajmerr/tskr/database v0.0.0-20240307070313-8a18ccbe972e // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
